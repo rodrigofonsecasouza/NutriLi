@@ -7,6 +7,7 @@ import { SignUpComponent } from './signup/signup.component';
 import { LoginComponent } from './login.component';
 import { LoginRoutingModule } from './login.routing.module';
 import { SignUpService } from './signup/signup.service';
+import { VMessageModule } from '../components/vmessage/vmessage.module';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { SignUpService } from './signup/signup.service';
         FormsModule,
         ReactiveFormsModule,
         RouterModule,
-        LoginRoutingModule
+        LoginRoutingModule,
+        VMessageModule,
     ],
     providers: [SignUpService]
 })

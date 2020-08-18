@@ -28,6 +28,7 @@
     "jwt-decode": "^2.2.0",
     "ng-http-loader": "^8.0.0",
     "ngx-bootstrap": "^3.1.4",
+    "ngx-spinner": "^10.0.1",
     "ngx-toastr": "^9.1.2",
     "rxjs": "~6.6.2",
     "stacktrace-js": "^2.0.2",

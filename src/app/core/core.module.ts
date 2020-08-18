@@ -6,6 +6,7 @@ import { RequestInterceptor } from './auth/request.interceptor';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoadingModule } from '../components/loading/loading.module';
 
 // import { AlertModule } from '../shared/components/alert/alert.module';
 // import { LoadingModule } from '../shared/components/loading/loading.module';
@@ -27,7 +28,7 @@ import { FooterComponent } from './footer/footer.component';
     imports: [
         CommonModule,
         RouterModule,
-
+        LoadingModule
     ],
     providers: [
         {

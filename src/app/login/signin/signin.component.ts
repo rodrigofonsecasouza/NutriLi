@@ -5,7 +5,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { PlatformDetectorService } from '../../core/plataform-detector/platform-detector.service';
 
 @Component({
-    templateUrl: './signin.component.html'
+    templateUrl: './signin.component.html',
+    styleUrls: ['./signin.component.css']
 })
 export class SignInComponent implements OnInit, AfterViewInit {
 

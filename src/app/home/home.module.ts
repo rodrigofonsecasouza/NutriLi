@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { CoreModule } from '../core/core.module';
 import { HomeRoutingModule } from './home.routing.module';
+import { ConvenioModule } from '../pages/convenio/convenio.module';
 
 @NgModule({
     declarations: [
@@ -16,7 +17,8 @@ import { HomeRoutingModule } from './home.routing.module';
         ReactiveFormsModule,
         RouterModule,
         CoreModule,
-        HomeRoutingModule
+        HomeRoutingModule,
+        ConvenioModule
     ],
     providers: []
 })

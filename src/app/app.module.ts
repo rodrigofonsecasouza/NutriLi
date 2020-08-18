@@ -5,7 +5,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { ToastrModule } from 'ngx-toastr';
-import { NgHttpLoaderModule } from 'ng-http-loader';
+//import { NgHttpLoaderModule } from 'ng-http-loader';
+import { NgxSpinnerModule } from "ngx-spinner";
 
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module'
@@ -17,6 +18,7 @@ import { FormsComponent } from './pages/forms/forms.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 import { MapsComponent } from './pages/maps/maps.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
+import { LoadingModule } from './components/loading/loading.module';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { NotificationsComponent } from './pages/notifications/notifications.comp
     BrowserAnimationsModule,
     CoreModule,
     HttpClientModule,
-    NgHttpLoaderModule.forRoot(),
+    //NgHttpLoaderModule.forRoot(),
+    NgxSpinnerModule,
+    LoadingModule,
     CollapseModule.forRoot(),
     ToastrModule.forRoot()
     ],

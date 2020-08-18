@@ -6,6 +6,33 @@
 
 @import "./partials/dashboard";
 
+.search:focus{ 
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.input-search{
+  background-color: transparent;
+  padding: 3px 4px 3px 10px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid #CCCCCC;
+}
+
+.text-rigth {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-width{
+  width: 100%;
+}
 
 .icon-style {
   width: 35px;
@@ -69,5 +96,33 @@ body {
 }
 
 .toast {
+  opacity: 1;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
   opacity: 1;
 }

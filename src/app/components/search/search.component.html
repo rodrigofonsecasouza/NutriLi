@@ -1,0 +1,9 @@
+<div class="text-rigth mt-1">
+    <form>
+        <div class="full-width input-search" style="flex-direction: row; box-sizing: border-box; display: flex; background: white;">
+            <input style="margin-right: 5px; border-style: none; width: 95%;" class="search" aria-invalid="false"
+                [placeholder]="placeholder" autofocus (keyup)="debounce.next($event.target.value)" [value]="value">
+            <i class="fa fa-search mr-1"></i>
+        </div>
+    </form>
+</div>
