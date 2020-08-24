@@ -4,6 +4,7 @@ import { ConvenioListComponent } from './convenio-list.component';
 import { PaginationModule } from 'src/app/components/pagination/pagination.module';
 import { RouterModule } from '@angular/router';
 import { SearchModule } from '../../../components/search/search.module';
+import { PaginatorModule } from 'primeng/paginator';
 
 @NgModule({
     declarations: [
@@ -13,7 +14,8 @@ import { SearchModule } from '../../../components/search/search.module';
         CommonModule,
         PaginationModule,
         RouterModule,
-        SearchModule
+        SearchModule,
+        PaginatorModule
     ]
 })
 export class ConvenioListModule { }

@@ -37,7 +37,6 @@ import { LoadingModule } from './components/loading/loading.module';
     BrowserAnimationsModule,
     CoreModule,
     HttpClientModule,
-    //NgHttpLoaderModule.forRoot(),
     NgxSpinnerModule,
     LoadingModule,
     CollapseModule.forRoot(),

@@ -10,7 +10,7 @@ import { MapsComponent } from '../pages/maps/maps.component';
 import { NotificationsComponent } from '../pages/notifications/notifications.component';
 import { ConvenioFormComponent } from '../pages/convenio/cadastro/convenio-form.component';
 import { ConvenioListComponent } from '../pages/convenio/listagem/convenio-list.component';
-
+import { AgendaComponent } from '../pages/agenda/agenda.component';
 
 const routes: Routes = [
     {
@@ -23,6 +23,7 @@ const routes: Routes = [
                 component: DashboardComponent,
             },
             { path: 'dashboard', component: DashboardComponent },
+            { path: 'agenda', component: AgendaComponent },
             { path: 'convenio', component: ConvenioListComponent },
             { path: 'convenio/new', component: ConvenioFormComponent },
             { path: 'convenio/:id', component: ConvenioFormComponent },
